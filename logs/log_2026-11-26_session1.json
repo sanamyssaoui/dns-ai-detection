@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-11-26T06:00:30.520945Z",
+    "attack_type": "recon",
+    "source_ip": "192.168.56.10",
+    "target": "192.168.56.20",
+    "confidence_score": 0.98,
+    "evidence": [
+      "classifieur + anomalie concordants"
+    ]
+  },
+  {
+    "timestamp": "2026-11-26T06:04:07.955625Z",
+    "attack_type": "flood",
+    "source_ip": "192.168.56.10",
+    "target": "192.168.56.20",
+    "confidence_score": 1.0,
+    "evidence": [
+      "ratio NXDOMAIN eleve"
+    ]
+  },
+  {
+    "timestamp": "2026-11-26T06:04:48.718447Z",
+    "attack_type": "tunnel",
+    "source_ip": "192.168.56.10",
+    "target": "192.168.56.20",
+    "confidence_score": 0.99,
+    "evidence": [
+      "entropie elevee",
+      "requetes TXT anormales",
+      "ratio NXDOMAIN eleve"
+    ]
+  },
+  {
+    "timestamp": "2026-11-26T06:06:40.943726Z",
+    "attack_type": "nxscan",
+    "source_ip": "192.168.56.10",
+    "target": "192.168.56.20",
+    "confidence_score": 1.0,
+    "evidence": [
+      "ratio NXDOMAIN eleve"
+    ]
+  }
+]
